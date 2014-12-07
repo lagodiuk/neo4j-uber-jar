@@ -10,3 +10,35 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#
+# Java
+#
+*.class
+*.jar
+
+.idea
+*.iml
+
+#
+# Compiled files directory
+#
+target/
+bin/
+
+#
+# Eclipse
+#
+.settings/
+.metadata/
+.project
+.springBeans
+.classpath
+*.local.properties
+*.log
+*.log.*
+
+#
+# OS generated files
+#
+.DS_Store
